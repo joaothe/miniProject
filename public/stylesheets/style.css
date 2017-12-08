@@ -39,17 +39,6 @@ body {
   background: var(--cloud);
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
-}
-
-h1 small, h2 small, h3 small,h4 small, h5 small, h6 small {
-  font-weight: normal;
-}
-
-h1 {
-  color: var(--wisteria);
-}
 
 a {
   color: var(--peter-river);
@@ -136,26 +125,6 @@ legend {
   font-size: 1.3em;
   margin: 0;
   margin-bottom: 20px;
-}
-
-nav.vertical ul, nav.vertical ul li {
-  display: block;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-nav.vertical ul li a {
-  display: block;
-  padding: 10px;
-  margin-bottom: 2px;
-  color: var(--white);
-}
-
-nav.vertical ul li:hover a, nav.vertical ul li.active a {
-  background-color: var(--wet-asfault);
-  color: var(--white);
-  text-decoration: none;
 }
 
 header, section {
@@ -267,35 +236,6 @@ div[class*="col-"] {
   border-radius: 10px;
 }
 
-.messages .message {
-  width: 60%;
-  float: left;
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid var(--cloud);
-  background: var(--white);
-}
-
-.messages .message.me {
-  float: right;
-  background: var(--cloud);
-}
-
-.login {
-  background: var(--midnight-blue);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.login input {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 ::-webkit-input-placeholder {
    color: var(--midnight-blue);
